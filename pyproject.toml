@@ -1,0 +1,15 @@
+[project]
+name = "brand-compliance-data-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-identity>=1.25.2",
+    "azure-search-documents>=11.6.0",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.9",
+    "pypdf>=6.7.0",
+    "python-dotenv>=1.2.1",
+]
